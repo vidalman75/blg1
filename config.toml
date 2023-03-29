@@ -3,7 +3,7 @@
 #title = 'A CoderS Log'
 #theme = 'poison'
 
-baseURL = "/"
+baseURL = "https://blg1.netlify.app/"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
