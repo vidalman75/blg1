@@ -6,8 +6,17 @@ draft: false
 
 The standard Lorem Ipsum passage, used since the 1500s
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
+![No Picture Found :P](/images/a_surfer_spider_mini.jpg "Good Surfer")
+
+<!--more-->
+
+![No Picture Found :P](/images/a_surfer_spider_mini.jpg#floatright)
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+![](/images/a_surfer_spider_mini.jpg#floatright)
 
 {{<mermaid>}}
 sequenceDiagram

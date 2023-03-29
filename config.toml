@@ -23,7 +23,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
+        # {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
+        {Name = "Posts", URL = "/posts/"},
     ]
 
     # Links to your socials.  Delete any you don't need/use. 
@@ -40,13 +41,18 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
     # Hex colors for your sidebar.
     sidebar_bg_color = "#115555"            # default is #202020
-    sidebar_img_border_color = "#FFF"       # default is #515151
-    sidebar_p_color = "#909090"             # default is #909090
-    sidebar_h1_color = "#FFF"               # default is #FFF
-    sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_socials_color = "#FFF"          # default is #FFF
+    # sidebar_img_border_color = "#FFF"       # default is #515151
+    sidebar_img_border_color = "#000"       # default is #515151
+    # sidebar_p_color = "#909090"             # default is #909090
+    sidebar_p_color = "#000"             # default is #909090
+    # sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_h1_color = "#121212"               # default is #FFF
+    # sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_a_color = "#000"                # default is #FFF
+    # sidebar_socials_color = "#FFF"          # default is #FFF
+    sidebar_socials_color = "#000"          # default is #FFF
     moon_sun_color = "#FFF"                 # default is #FFF
-    moon_sun_background_color = "#222"      # default is #515151
+    moon_sun_background_color = "#121212"      # default is #515151
 
     # Hex colors for your content in light mode.
     text_color = "#222"             # default is #222
