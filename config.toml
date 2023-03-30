@@ -25,6 +25,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         {Name = "About", URL = "/about/", HasChildren = false},
         # {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
         {Name = "Posts", URL = "/posts/"},
+        {Name = "Utils", URL = "/utils/", HasChildren = false},
     ]
 
     # Links to your socials.  Delete any you don't need/use. 
@@ -77,3 +78,6 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [taxonomies]
     series = 'series'
     tags = 'tags'
+
+[outputs]
+   home = [ "HTML", "JSON" ]
