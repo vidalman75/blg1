@@ -1,0 +1,9 @@
+<ul>
+{{ range .Site.RegularPages.ByDate | first 3}}
+<li>{{ .Title }} </li>
+{{ end }}
+</ul>
+
+{{ seq 8 | shuffle | first 2 }}
+<br>
+{{ index (seq 3 | shuffle) 0 }}
